@@ -11,15 +11,22 @@ body {
 }
 
 header {
-/*   display: flex;
+  display: flex;
   flex-direction: row;
-  justify-content:space-around; */
+  justify-content:space-around; 
+ 
 /*   background: rgb(194,83,11);
   background: -moz-linear-gradient(90deg, rgba(194,83,11,1) 0%, rgba(255,111,1,1) 100%);
   background: -webkit-linear-gradient(90deg, rgba(194,83,11,1) 0%, rgba(255,111,1,1) 100%);
   background: linear-gradient(90deg, rgba(194,83,11,1) 0%, rgba(255,111,1,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#c2530b",endColorstr="#ff6f01",GradientType=1); */
 }
+
+.nav-item {
+  margin: 0em 15em 0em 6.7em;
+   /* Ajuste o valor conforme sua preferência */
+}
+
 
 .navegacao{
   display: flex;
@@ -82,7 +89,7 @@ header p {
 
 .mae{
   max-width: 20em;
-  max-height:26em;
+  max-height:24em;
 }
 
 #problems {
@@ -119,6 +126,8 @@ header p {
   flex-direction: row;
   justify-content: space-around;
 }
+
+
 #cta {
   display: flex;
   flex-direction: row;
@@ -165,11 +174,11 @@ header p {
 
 .conection {
   max-width: 35em;
-  max-height: 40em;
+  max-height: 39em;
 }
 .conectionRight {
   max-width: 35em;
-  max-height: 40em;
+  max-height: 39em;
 
 }
 
@@ -195,7 +204,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#7deec0",endCo
 
 .recipes {
   max-width: 15em;
-  max-height: 22em;
+  max-height: 20em;
   border-radius: 50%;
   margin-left:25%;
 }
